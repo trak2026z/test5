@@ -1,0 +1,25 @@
+{
+  "name": "user-management",
+  "version": "0.0.1",
+  "description": "Nest.js TypeORM user management CRUD backend",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "@nestjs/platform-express": "^10.0.0",
+    "@nestjs/typeorm": "^10.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0",
+    "sqlite3": "^5.1.6",
+    "typeorm": "^0.3.12"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
